@@ -11,6 +11,9 @@ export default function Header() {
       <NavLink to="/about" style={({ isActive }) => (isActive ? { color: "red" } : undefined)}>
         About
       </NavLink>
+      <NavLink to="/backTest" style={({ isActive }) => (isActive ? { color: "red" } : undefined)}>
+        뒤로가기 테스트
+      </NavLink>
       <Outlet />
     </div>
   );
