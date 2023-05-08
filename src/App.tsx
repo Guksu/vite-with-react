@@ -5,6 +5,7 @@ import About from "./pages/About";
 import NotFount from "./pages/NotFound";
 import Header from "../components/Header";
 import BackTest from "./pages/BackTest";
+import CreateRootTest from "./pages/CreateRootTest";
 
 function App() {
   console.log("test");
@@ -16,6 +17,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/about/:id" element={<ParamCheck />} />
           <Route path="/backTest" element={<BackTest />} />
+          <Route path="/createRootTest" element={<CreateRootTest />} />
         </Route>
         <Route path="*" element={<NotFount />} />
       </Routes>
