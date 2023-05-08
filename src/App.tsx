@@ -7,6 +7,7 @@ import Header from "../components/Header";
 import BackTest from "./pages/BackTest";
 
 function App() {
+  console.log("test");
   return (
     <div className="App">
       <Routes>
